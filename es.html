@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Page Information
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>mauriballes</title>
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton-dark.css">
+  <link rel="stylesheet" href="css/brands.css">
+
+  <style type="text/css">
+    img.avatar {
+      border: 2px solid white;
+      border-radius: 50%;
+    }
+
+    .language {
+      font-size: 24px;
+      position: fixed;
+      top: 10px;
+      right: 10px;
+    }
+
+    a.language {
+      color: #fcfcfc;
+      text-decoration: none;
+    }
+  </style>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.ico">
+
+</head>
+<body>
+
+    <div class="language">
+      <a class="language" href="/">EN</a>
+    </div>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="column" style="margin-top: 10%">
+
+        <!-- 
+
+          ## Getting Started with LittleLink
+
+          This page has been built with every pre-designed button available in LittleLink by default. You can rearrange and delete as needed.
+
+          You can add your own brand or others brands you may need in the `css/brands.css` file. 
+
+          Edit the "Your Image Here" section to add your own personal branding, like a picture of yourself or your brand logo!
+
+          Edit the "Your Name" section to change the page heading. You can use something like your name, your social handle, or your brand name.
+
+          Edit the "Short Bio" section tell users about yourself or your brand.
+
+        -->
+
+        <!-- Your Image Here -->
+        <img class="avatar" src="images/avatar.jpg" srcset="images/avatar2x.jpg 2x" alt="LittleLink Logo">
+
+        <!-- Your Name -->
+        <h1>mauriballes</h1>
+
+        <!-- Short Bio -->
+        <p>Hola, mi nombre es Mauricio Ballesteros. Soy un ingeniero de software que vive en Bolivia. Mis pasiones son la programación, el baloncesto y el rock and roll.</p>
+
+        <!--
+
+          ## Breaking down <a> attributes:
+          
+          1.) class="button button-default" | The first "button" here is telling this <a> tag that it should make this element a button and applies the default styling in `css/brands.css`.
+          The second portion, button-default, is declaring the specific brand style you would like to apply. Here we're applying the "default" style and color.
+          If you want to make this button to use the brand colors for Discord, just change "button-default" to "button-discord". Brands are found in `css/brands.css`. You can always edit & add your own there.
+
+          2.) Replace the # in href="#" with the desired target URL for the button.
+
+          3.) target="_blank" | This attribute opens links in a new tab. Remove this attribute to prevent links from opening in a new tab.
+
+          4.) rel="noopener" | This attribute instructs the browser to navigate to the target resource without granting the new browsing context access to the document that opened it.
+          This is especially useful when opening untrusted links. https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/noopener
+
+          ## Breaking down the <img> attributes:
+          
+          1.) class="icon" | This class is telling the <img> tag that it should use the styling for icons found in `css/brands.css`.
+
+          2.) src="icons/[icon_name].svg" | This defines the icon you would like to display from the icons/ folder. For example, you can change this to src="icons/discord.svg" to use the Discord icon.
+          Add your own 24x24 icons to the "icons" folder to reference them. We recommend providing a SVG.
+
+          3.) alt="Example Logo" | This alt attribute helps provides alternate text for an image, this can assist users who use screen readers. 
+
+        -->
+
+        <!-- Twitter -->
+        <a class="button button-twitter" href="https://twitter.com/mauriballes" target="_blank" rel="noopener"><img class="icon" src="icons/twitter.svg" alt="Twitter Logo">Twitter</a>
+          <br> 
+
+        <!-- Github -->
+        <a class="button button-github" href="https://github.com/mauriballes" target="_blank" rel="noopener"><img class="icon" src="icons/github.svg" alt="GitHub Logo">GitHub</a>
+          <br>
+
+        <!-- LinkedIn -->
+        <a class="button button-linkedin" href="https://www.linkedin.com/in/mauriballes" target="_blank" rel="noopener"><img class="icon" src="icons/linkedin.svg" alt="LinkedIn Logo">LinkedIn</a>
+          <br>
+
+        <!-- YouTube -->
+        <a class="button button-youtube" href="https://www.youtube.com/channel/UCk23CTi6hzXg4H_iTuXcMEQ" target="_blank" rel="noopener"><img class="icon" src="icons/youtube.svg" alt="YouTube Logo">YouTube</a>
+          <br>
+
+        <!-- Email -->
+        <a class="button button-default" href="mailto:contact@mauriballes.com" target="_blank" rel="noopener"><img class="icon" src="icons/email.svg" alt="Email Icon">Email</a>
+          <br>
+
+        <!-- CV -->
+        <a class="button button-github" href="https://cv.mauriballes.com" target="_blank" rel="noopener"><img class="icon" src="icons/copy.svg" alt="Resume Icon">Resume</a>
+          <br>
+
+        <br>
+        <br>
+        <p>Build your own by forking <a href="https://littlelink.io" target="_blank" rel="noopener">LittleLink</a>.</p>
+          
+      </div>
+    </div>
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
